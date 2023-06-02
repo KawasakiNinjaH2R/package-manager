@@ -1,0 +1,1 @@
+type UnionInterface<K extends {[key: string]:unknown},T extends {[key: string]:unknown}> = K&T
